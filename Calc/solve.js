@@ -3,9 +3,14 @@ let resDisplayed = false;
 function operator(char) {
     return ['+', '-', '*', '/', '×', '÷'].includes(char);
 }
+
 function display(val) {
-    let result = (document.getElementById("result"));
-    if (operator(val) && operator(result.value.slice(-1))) {
+    const result = document.getElementById("result");
+
+    if (resDisplayed && !operator(val)) {
+        result.value = "";
+        resDisplayed = false;
+    } if (operator(val) && operator(result.value.slice(-1))) {
         return;
     } if (val === "-" && (result.value === "" || operator(result.value.slice(-1)))) {
         result.value += val;
@@ -15,17 +20,19 @@ function display(val) {
     }
     result.value += val;
 }
+
 function c() {
     document.getElementById("result").value = "";
 }
+
 function solve() {
     let inp = document.getElementById("result").value;
     inp = inp.replace(/x/g, "*").replace(/÷/g, "/");
     try {
         let res = math.evaluate(inp);
-            if (isNaN(res) || !isFinite(res)) {
-                throw new Error("Error");
-            }
+        if (isNaN(res) || !isFinite(res)) {
+            throw new Error("Error");
+        }
         document.getElementById("result").value = res;
         resDisplayed = true;
     } catch (e) {
@@ -33,6 +40,7 @@ function solve() {
         resDisplayed = true;
     }
 }
+
 function keydown(event) {
     const validKeys = "0123456789+-/*x.";
     const result = document.getElementById("result");
@@ -41,7 +49,8 @@ function keydown(event) {
     if (resDisplayed) {
         if (validKeys.includes(event.key) && !operator(event.key)) {
             result.value = "";
-        } resDisplayed = false;
+        }
+        resDisplayed = false;
     }
 
     switch (event.key) {
@@ -73,4 +82,12 @@ function keydown(event) {
             break;
     }
 }
+document.querySelectorAll(".btn").forEach((button) => {
+    button.addEventListener("click", () => {
+        display(button.innerText);
+    });
+});
+
+document.getElementById("solve").addEventListener("click", solve);
+document.getElementById("clear").addEventListener("click", c);
 document.addEventListener("keydown", keydown);
