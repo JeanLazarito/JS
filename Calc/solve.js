@@ -41,7 +41,7 @@ function c() {
 
 function solve() {
     let inp = document.getElementById("result").value;
-    inp = inp.replace(/×/g, "*").replace(/÷/g, "/");
+    inp = inp.replace(/÷/g, "/").replace(/x/g, "*").replace(/×/g, "*");
 
     try {
         const res = math.evaluate(inp);
@@ -65,7 +65,6 @@ function keydown(event) {
     if (result.value === "Error") {
         result.value = "";
     }
-
     if (resDisplayed) {
         if (valid.includes(event.key)) {
             result.value = "";
@@ -83,6 +82,11 @@ function keydown(event) {
             break;
         case 'Delete':
             c();
+            break;
+        case 'x':
+            if (!operator(lastChar)) {
+                display('×');
+            }
             break;
         case '*':
             if (!operator(lastChar)) {
@@ -112,7 +116,7 @@ document.querySelectorAll(".btn").forEach((button) => {
         const disp = button.innerText.trim();
         console.log("Button clicked:", disp);
         const result = document.getElementById("result");
-        
+
         if (result.value === "Error") {
             result.value = "";
         }
@@ -120,8 +124,7 @@ document.querySelectorAll(".btn").forEach((button) => {
             result.value = "";
             resDisplayed = false;
         }
-
-        if (disp === "×") {
+        if (disp === "×" || disp === "x") {
             display("×");
         } else if (disp === "÷") {
             display("÷");
