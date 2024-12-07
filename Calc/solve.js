@@ -7,29 +7,45 @@ function operator(char) {
 function display(val) {
     const result = document.getElementById("result");
 
-    if (resDisplayed && !operator(val)) {
+    if (result.value === "Error") {
         result.value = "";
+    }
+    if (resDisplayed) {
+        if (!operator(val)) {
+            result.value = "";
+        }
         resDisplayed = false;
-    } if (operator(val) && operator(result.value.slice(-1))) {
-        return;
-    } if (val === "-" && (result.value === "" || operator(result.value.slice(-1)))) {
-        result.value += val;
-        return;
-    } if (result.value === "" && operator(val)) {
+    }
+    if (operator(val) && operator(result.value.slice(-1))) {
         return;
     }
+    if (val === "-" && (result.value === "" || operator(result.value.slice(-1)))) {
+        result.value += val;
+        return;
+    }
+    if (result.value === "" && operator(val)) {
+        return;
+    }
+    const lastSegment = result.value.split(/[-+×÷*/]/).pop();
+    if (val === "." && lastSegment.includes(".")) {
+        return;
+    }
+
     result.value += val;
 }
 
 function c() {
     document.getElementById("result").value = "";
+    resDisplayed = false;
 }
 
 function solve() {
     let inp = document.getElementById("result").value;
-    inp = inp.replace(/x/g, "*").replace(/÷/g, "/");
+    inp = inp.replace(/×/g, "*").replace(/÷/g, "/");
+
     try {
-        let res = math.evaluate(inp);
+        const res = math.evaluate(inp);
+
         if (isNaN(res) || !isFinite(res)) {
             throw new Error("Error");
         }
@@ -42,12 +58,16 @@ function solve() {
 }
 
 function keydown(event) {
-    const validKeys = "0123456789+-/*x.";
+    const valid = "0123456789+-/*x.";
     const result = document.getElementById("result");
     const lastChar = result.value.slice(-1);
 
+    if (result.value === "Error") {
+        result.value = "";
+    }
+
     if (resDisplayed) {
-        if (validKeys.includes(event.key) && !operator(event.key)) {
+        if (valid.includes(event.key)) {
             result.value = "";
         }
         resDisplayed = false;
@@ -64,30 +84,52 @@ function keydown(event) {
         case 'Delete':
             c();
             break;
-        case 'x':
         case '*':
             if (!operator(lastChar)) {
-                result.value += "×";
+                display('×');
             }
             break;
         case '/':
             if (!operator(lastChar)) {
-                result.value += "÷";
+                display('÷');
             }
             break;
+        case '+':
+        case '-':
+        case '.':
+            display(event.key);
+            break;
         default:
-            if (validKeys.includes(event.key)) {
+            if (valid.includes(event.key)) {
                 display(event.key);
             }
             break;
     }
 }
+
 document.querySelectorAll(".btn").forEach((button) => {
     button.addEventListener("click", () => {
-        display(button.innerText);
+        const disp = button.innerText.trim();
+        console.log("Button clicked:", disp);
+        const result = document.getElementById("result");
+        
+        if (result.value === "Error") {
+            result.value = "";
+        }
+        if (resDisplayed && !operator(disp)) {
+            result.value = "";
+            resDisplayed = false;
+        }
+
+        if (disp === "×") {
+            display("×");
+        } else if (disp === "÷") {
+            display("÷");
+        } else {
+            display(disp);
+        }
     });
 });
-
+document.addEventListener("keydown", keydown);
 document.getElementById("solve").addEventListener("click", solve);
 document.getElementById("clear").addEventListener("click", c);
-document.addEventListener("keydown", keydown);
