@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.min.css" />
+  <title>ATHLON</title>
+  <link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+  
+  <header>
+    <div class="global-notification">
+      <div class="container">
+        <p>
+          <b>Free Nationwide Delivery.</b> Applies to orders of ₱7,000 or more
+        </p>
+      </div>
+    </div>
+    <div class="header-row">
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="header-mobile">
+            <i class="bi bi-list" id="btn-menu"></i>
+          </div>
+          <div class="header-left">
+            <a href="index.html" class="logo"><img style="width: 100px;" src="img/logo.png" alt=""></a>
+          </div>
+          <div class="header-center" id="sidebar">
+            <nav class="navigation">
+              <ul class="menu-list">
+                <li class="menu-list-item">
+                  <a href="index.html" class="menu-link">Home
+                  </a>
+              </li>
+                <li class="menu-list-item megamenu-wrapper">
+                  <a href="shop.html" class="menu-link">Shop
+                    <i class="bi bi-chevron-down"></i>
+                  </a>
+                  <div class="menu-dropdown-wrapper">
+                    <div class="menu-dropdown-megamenu">
+                      <div class="megamenu-links">
+                        <div class="megamenu-products">
+                          <h3 class="megamenu-product-title">SHOP BY SPORT</h3>
+                          <ul class="megamenu-menu-list">
+                            <li><a href="sb.html">SKATEBOARDING</a></li>
+                            <li><a href="running.html">RUNNING</a></li>
+                            <li><a href="football.html">FOOTBALL</a></li>
+                            <li><a href="basketball.html">BASKETBALL</a></li>
+                            <li><a href="tennis.html">TENNIS</a></li>
+                          </ul>
+                        </div>
+                        <div class="megamenu-links">
+                          <div class="megamenu-products">
+                            <h3 class="megamenu-product-title"></h3>
+                            <ul class="megamenu-menu-list">
+                            </ul>
+                          </div>
+                      </div>
+                      <div class="megamenu-single">
+                        <img src="img/mega-menu.jpg" alt="" />
+                      <h3 class="megamenu-single-title">
+                        LeBron XXII 'Currency' EP
+                      </h3>
+                      <h4 class="megamenu-single-subtitle">
+                        Teachers & Students Get 10% Off
+                      </h4>
+                      <a href="shop.html" class="megamenu-single-button btn btn-sm">Shop Now</a>
+                    </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="menu-list-item">
+                  <a href="blog.html" class="menu-link">Blog
+                  </a>
+                </li>
+                <li class="menu-list-item">
+                  <a href="contact.html" class="menu-link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <i class="bi-x-circle" id="close-sidebar"></i>
+          </div>
+          <div class="header-right">
+            <div class="header-right-links">
+              <a href="account.html">
+                <i class="bi bi-person"></i>
+              </a>
+              <button class="search-button">
+                <i class="bi bi-search"></i>
+              </button>
+              <a href="#">
+                <i class="bi bi-heart"></i>
+              </a>
+              <div class="header-cart">
+                <a href="cart.html" class="header-cart-link">
+                  <i class="bi bi-bag"></i>
+                  <span class="header-cart-count">0</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="modal-search">
+    <div class="modal-wrapper">
+      <h3 class="modal-title">Search for products</h3>
+      <p class="modal-text">
+        Start typing to see products you are looking for.
+      </p>
+      <div class="search">
+        <input type="text" placeholder="Search a product" />
+        <button><i class="bi bi-search"></i></button>
+      </div>
+      </form>
+      <div class="search-result">
+        <div class="search-heading">
+          <h3>RESULT FROM PRODUCT</h3>
+        </div>
+        <div class="results">
+
+        </div>
+      </div>
+      <i class="bi bi-x-circle" id="close-modal-search"></i>
+    </div>
+  </div>
+
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-close">
+        <i class="bi bi-x"></i>
+      </div>
+      <div class="modal-image">
+        <img src="img/modal-dialog.jpg" alt="modal">
+      </div>
+      <div class="popup-wrapper">
+        <div class="popup-content">
+          <div class="popup-title">
+            <h3>NEWSLETTER</h3>
+          </div>
+          <p class="popup-text">
+            Stay informed with our latest and greatest. Sign up for Athlon emails. We'll send you information about new styles, exclusive offers and upcoming events.
+          </p>
+          <form class="popup-form">
+            <input type="text" placeholder="Enter Email Address Here">
+            <button class="btn btn-primary">SUBSCRIBE</button>
+            <label>
+              <input type="checkbox">
+              <span>Don't show this popup again</span>
+            </label>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="slider">
+    <div class="slider-elements">
+      <div class="slider-item fade">
+        <div class="slider-image">
+          <img src="img/slider/slider1.jpg" class="img-fluid" alt="" />
+        </div>
+        <div class="container">
+          <p class="slider-title"><br><br><br>FROM ONE ERA OF ATHLON TO THE NEXT.</p>
+          <h2 class="slider-heading">NEW ERA FOR ATHLON</h2>
+          <a href="shop.html" class="btn btn-lg btn-primary">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="categories">
+    <div class="container">
+      <div class="section-title">
+        <h2>SHOP BY SPORT</h2>
+        <p>Summer Collection New Modern Design</p>
+      </div>
+
+      <ul class="category-list">
+        <li class="category-item">
+          <a href="sb.html">
+            <img src="img/categories/categories1.png" alt="" class="category-image" />
+            <span class="category-title">SKATEBOARDING</span>
+          </a>
+        </li>
+        <li class="category-item">
+          <a href="running.html">
+            <img src="img/categories/categories2.png" alt="" class="category-image" />
+            <span class="category-title">RUNNING</span>
+          </a>
+        </li>
+        <li class="category-item">
+          <a href="football.html">
+            <img src="img/categories/categories3.png" alt="" class="category-image" />
+            <span class="category-title">FOOTBALL</span>
+          </a>
+        </li>
+        <li class="category-item">
+          <a href="basketball.html">
+            <img src="img/categories/categories4.png" alt="" class="category-image" />
+            <span class="category-title">BASKETBALL</span>
+          </a>
+        </li>
+        <li class="category-item">
+          <a href="tennis.html">
+            <img src="img/categories/categories5.png" alt="" class="category-image" />
+            <span class="category-title">TENNIS</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="container">
+      <div class="section-title">
+        <h2>NEW & FEATURED</h2>
+        <p>Footwear & Apparel</p>
+      </div>
+      <div class="product-wrapper product-carousel">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="product-list glide__slides" id="product-list">
+            <li class="product-item glide__slide">
+              <div class="product-image">
+                <a href="single-product.html">
+                  <img src="img/products/product1/1.png" alt="" class="img1" />
+                  <img src="img/products/product1/2.png" alt="" class="img2" />
+                </a>
+              </div>
+              <div class="product-info">
+                <a href="single-product.html" class="product-title"> Nike Air Force 1 '07</a>
+                <ul class="product-star">
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-half"></i>
+                  </li>
+                </ul>
+                <div class="product-prices">
+                  <strong class="new-price">₱6,195</strong>
+                  <span class="old-price">₱7,195</span>
+                </div>
+                <span class="product-discount"> -10% </span>
+                <div class="product-links">
+                  <button>
+                    <i class="bi bi-basket-fill"></i>
+                  </button>
+                  <button>
+                    <i class="bi bi-heart-fill"></i>
+                  </button>
+                  <a href="#">
+                    <i class="bi bi-eye-fill"></i>
+                  </a>
+                  <a href="#">
+                    <i class="bi bi-share-fill"></i>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blogs">
+    <div class="container">
+      <div class="section-title">
+        <h2>From Our Blog</h2>
+        <p>Your Exclusive Access</p>
+      </div>
+      <ul class="blog-list">
+        <li class="blog-item">
+          <a href="blog.html" class="blog-image">
+            <img src="img/blogs/blog1.jpg" alt="" />
+          </a>
+          <div class="blog-info">
+            <div class="blog-info-top">
+              <span>Member Days</span>
+            </div>
+            <div class="blog-info-center">
+              <a href="blog.html"> A Celebration of You </a>
+            </div>
+            <div class="blog-info-bottom">
+              <a href="blog.html">Read More</a>
+            </div>
+          </div>
+        </li>
+        <li class="blog-item">
+          <a href="blog.html" class="blog-image">
+            <img src="img/blogs/blog2.jpg" alt="" />
+          </a>
+          <div class="blog-info">
+            <div class="blog-info-top">
+              <span>Sports & Wellness Apps</span>
+            
+            </div>
+            <div class="blog-info-center">
+              <a href="blog.html"> Movement Where You Are </a>
+            </div>
+            <div class="blog-info-bottom">
+              <a href="blog.html">Read More</a>
+            </div>
+          </div>
+        </li>
+        <li class="blog-item">
+          <a href="blog.html" class="blog-image">
+            <img src="img/blogs/blog3.jpg" alt="" />
+          </a>
+          <div class="blog-info">
+            <div class="blog-info-top">
+              <span>SNKRS</span>
+           
+            </div>
+            <div class="blog-info-center">
+              <a href="blog.html"> Your Ultimate Sneaker Community </a>
+            </div>
+            <div class="blog-info-bottom">
+              <a href="blog.html">Read More</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="container">
+      <div class="section-title">
+        <h2>NEW ARRIVALS</h2>
+        <p>Summer Collection</p>
+      </div>
+      <div class="product-wrapper product-carousel2">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="product-list glide__slides" id="product-list-2">
+            <li class="product-item glide__slide">
+              <div class="product-image">
+                <a href="single-product.html">
+                  <img src="img/products/product1/1.png" alt="" class="img1" />
+                  <img src="img/products/product1/2.png" alt="" class="img2" />
+                </a>
+              </div>
+              <div class="product-info">
+                <a href="single-product.html" class="product-title"> Nike Air Force 1 '07</a>
+                <ul class="product-star">
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                  <li>
+                    <i class="bi bi-star-fill"></i>
+                  </li>
+                </ul>
+                <div class="product-prices">
+                  <strong class="new-price">₱6,195.00</strong>
+                  <span class="old-price">₱7,195</span>
+                </div>
+                <span class="product-discount"> -17% </span>
+                <div class="product-links">
+                  <button>
+                    <i class="bi bi-basket-fill"></i>
+                  </button>
+                  <button>
+                    <i class="bi bi-heart-fill"></i>
+                  </button>
+                  <a href="#">
+                    <i class="bi bi-eye-fill"></i>
+                  </a>
+                  <a href="#">
+                    <i class="bi bi-share-fill"></i>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="brands">
+  <div class="container">
+    <ul class="brand-list">
+      <li class="brand-item">
+          <img src="img/brands/brand1.png" alt="" />
+      </li>
+      <li class="brand-item">
+          <img src="img/brands/brand2.png" alt="" />
+      </li>
+      <li class="brand-item">
+          <img src="img/brands/brand3.png" alt="" />
+      </li>
+      <li class="brand-item">
+          <img src="img/brands/brand4.png" alt="" />
+      </li>
+      <li class="brand-item">
+          <img src="img/brands/brand5.png" alt="" />
+      </li>
+      <li class="brand-item">
+          <img src="img/brands/brand6.png" alt="" />
+      </li> 
+    </ul>
+  </div>
+</section>
+
+<section class="campaign-single">
+  <div class="container">
+    <div class="campaign-wrapper">
+      <h2>Be fearless in bold new prints of the season.</h2>
+      <strong>FOR THE HOME TEAM</strong>
+      <span></span>
+      <a href="shop.html" class="btn btn-lg">
+        SHOP NOW  
+        <i class="bi bi-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+  <section class="policy">
+    <div class="container">
+      <ul class="policy-list">
+        <li class="policy-item">
+          <i class="bi bi-truck"></i>
+          <div class="policy-texts">
+            <strong>FREE DELIVERY</strong>
+            <span>From ₱7000</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-headset"></i>
+          <div class="policy-texts">
+            <strong>SUPPORT 24/7</strong>
+            <span>Online 24 hours</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-arrow-clockwise"></i>
+          <div class="policy-texts">
+            <strong>30 DAYS RETURN</strong>
+            <span>Simply return it within 30 days</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-credit-card"></i>
+          <div class="policy-texts">
+            <strong>PAYMENT METHOD</strong>
+            <span>Secure Payment</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="subscribe-contact-row">
+      <div class="container">
+        <div class="subscribe-contact-wrapper">
+          <div class="subscribe-wrapper">
+            <div class="footer-subscribe">
+              <div class="footer-subscribe-top">
+                <h3 class="subscribe-title">
+                  Get our emails for info on new items, sales and more.
+                </h3>
+                <p class="subscribe-desc">
+                  We'll email you a voucher worth ₱100 off your first order
+                  over ₱2000.
+                </p>
+              </div>
+              <div class="footer-subscribe-bottom">
+                <form>
+                  <input type="text" placeholder="enter your email address" />
+                  <button class="btn">Subscribe</button>
+                </form>
+                <p class="privacy-text">
+                  By subscribing you agree to our
+                  Terms & Conditions and Privacy & Cookies Policy.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-wrapper">
+            <div class="footer-contact-top">
+              <h3 class="contact-title">Need help? <br>
+                (+63)123 456 7890
+              </h3>
+              <p class="contact-desc">We are available 10:00am – 9:00pm
+              </p>
+            </div>
+            <div class="footer-contact-bottom">
+              <div class="download-app">
+                  <img src="img/footer/app-store.png" alt="">
+                  <img src="img/footer/google-play.png" alt="">
+              </div>
+              <p class="privacy-text">
+                <strong>Shopping App:</strong> Try our View in Your Room feature, manage registries and save payment
+                info.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="widgets-row">
+      <div class="container">
+        <div class="footer-widgets">
+          <div class="brand-info">
+            <div class="footer-logo">
+              <a href="index.html" class="logo"><img style="width: 80px;" src="img/logo.png" alt=""></a>
+            </div>
+            <div class="footer-desc">
+              Find your next go-to sneaker for the court or the streets. Shop one of the best-selling shoes by sport at ATHLON today. Nationwide Shipping Available.
+            </div>
+            <div class="footer-contact">
+              <p>
+                (+63)123 456 7890 -
+               athlon@gmail.com
+              </p>
+            </div>
+          </div>
+          <div class="widget-nav-menu">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-row">
+      <div class="copyright-row">
+        <div class="container">
+          <div class="footer-copyright">
+            <div class="site-copyright">
+              <p>
+                Copyright 2024 © E-Commerce Project. All rights reserved.
+              </p>
+            </div>
+              <img src="img/footer/cards.png" alt="">
+            <div class="footer-menu">
+              <ul class="footer-menu-list">
+                <li class="list-item">
+               Privacy Policy
+                </li>
+                <li class="list-item">
+                 Terms and Conditions
+                </li>
+                <li class="list-item">
+                Returns Policy
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/main.js" type="module"></script>
+  <script src="js/slider.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+  <script src="js/glide.js" type="module"></script>
+
+</body>
+
+</html>
