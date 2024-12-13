@@ -1,0 +1,70 @@
+[
+    {
+        "id": 7,
+        "name": "Nike Mercurial Superfly 9 Elite",
+        "price": {
+            "oldPrice": 12119.00,
+            "newPrice": 11199.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product7/1.png",
+            "thumbs": [
+                "img/products/product7/1.png",
+                "img/products/product7/2.png",
+                "img/products/product7/3.png"
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "name": "Nike React Gato",
+        "price": {
+            "oldPrice": 6039.00,
+            "newPrice": 5039.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product8/1.png",
+            "thumbs": [
+                "img/products/product8/1.png",
+                "img/products/product8/2.png",
+                "img/products/product8/3.png"
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "name": "Nike Phantom GX 2 Club",
+        "price": {
+            "oldPrice": 4195.00,
+            "newPrice": 3195.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product9/1.png",
+            "thumbs": [
+                "img/products/product9/1.png",
+                "img/products/product9/2.png",
+                "img/products/product9/3.png"
+            ]
+        }
+    },
+    {
+        "id": 18,
+        "name": "Nike Superfly 9 Elite Mercurial Dream Speed",
+        "price": {
+            "oldPrice": 13159.00,
+            "newPrice": 12159.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product18/1.png",
+            "thumbs": [
+                "img/products/product18/1.png",
+                "img/products/product18/2.png",
+                "img/products/product18/3.png"
+            ]
+        }
+    }
+]

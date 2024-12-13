@@ -1,0 +1,342 @@
+[
+    {
+        "id": 1,
+        "name": "Nike Air Force 1 '07",
+        "price": {
+            "oldPrice": 7195.00,
+            "newPrice": 6195.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product1/1.png",
+            "thumbs": [
+                "img/products/product1/1.png",
+                "img/products/product1/2.png",
+                "img/products/product1/3.png"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "name": "Nike SB Dunk Low",
+        "price": {
+            "oldPrice": 7895.00,
+            "newPrice": 6895.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product2/1.png",
+            "thumbs": [
+                "img/products/product2/1.png",
+                "img/products/product2/2.png",
+                "img/products/product2/3.png"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "name": "Nike Cortez Leather",
+        "price": {
+            "oldPrice": 7195.00,
+            "newPrice": 6195.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product3/1.png",
+            "thumbs": [
+                "img/products/product3/1.png",
+                "img/products/product3/2.png",
+                "img/products/product3/3.png"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "name": "Nike Pegasus 41 'Eliud Kipchoge'",
+        "price": {
+            "oldPrice": 8895.00,
+            "newPrice": 7895.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product4/1.png",
+            "thumbs": [
+                "img/products/product4/1.png",
+                "img/products/product4/2.png",
+                "img/products/product4/3.png"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "name": "Nike Zoom Fly 6 Premium",
+        "price": {
+            "oldPrice": 10895.00,
+            "newPrice": 9895.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product5/1.png",
+            "thumbs": [
+                "img/products/product5/1.png",
+                "img/products/product5/2.png",
+                "img/products/product5/3.png"
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "name": "Nike Alphafly 3 Premium",
+        "price": {
+            "oldPrice": 16095.00,
+            "newPrice": 15095.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product6/1.png",
+            "thumbs": [
+                "img/products/product6/1.png",
+                "img/products/product6/2.png",
+                "img/products/product6/3.png"
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "name": "Nike Mercurial Superfly 9 Elite",
+        "price": {
+            "oldPrice": 12119.00,
+            "newPrice": 11199.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product7/1.png",
+            "thumbs": [
+                "img/products/product7/1.png",
+                "img/products/product7/2.png",
+                "img/products/product7/3.png"
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "name": "Nike React Gato",
+        "price": {
+            "oldPrice": 6039.00,
+            "newPrice": 5039.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product8/1.png",
+            "thumbs": [
+                "img/products/product8/1.png",
+                "img/products/product8/2.png",
+                "img/products/product8/3.png"
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "name": "Nike Phantom GX 2 Club",
+        "price": {
+            "oldPrice": 4195.00,
+            "newPrice": 3195.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product9/1.png",
+            "thumbs": [
+                "img/products/product9/1.png",
+                "img/products/product9/2.png",
+                "img/products/product9/3.png"
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "name": "LeBron XXII 'Crown Jewel' EP",
+        "price": {
+            "oldPrice": 10895.00,
+            "newPrice": 9895.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product10/1.png",
+            "thumbs": [
+                "img/products/product10/1.png",
+                "img/products/product10/2.png",
+                "img/products/product10/3.png"
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "name": "LeBron XXII 'Currency' EP",
+        "price": {
+            "oldPrice": 11895.00,
+            "newPrice": 10895.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product11/1.png",
+            "thumbs": [
+                "img/products/product11/1.png",
+                "img/products/product11/2.png",
+                "img/products/product11/3.png"
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "Ja 2 'Foundation' EP",
+        "price": {
+            "oldPrice": 7895.00,
+            "newPrice": 6895.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product12/1.png",
+            "thumbs": [
+                "img/products/product12/1.png",
+                "img/products/product12/2.png",
+                "img/products/product12/3.png"
+            ]
+        }
+    },
+    {
+        "id": 13,
+        "name": "NikeCourt Vapor Lite 2",
+        "price": {
+            "oldPrice": 5295.00,
+            "newPrice": 4295.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product13/1.png",
+            "thumbs": [
+                "img/products/product13/1.png",
+                "img/products/product13/2.png",
+                "img/products/product13/3.png"
+            ]
+        }
+    },
+    {
+        "id": 14,
+        "name": "Nike GP Challenge Pro",
+        "price": {
+            "oldPrice": 5959.00,
+            "newPrice": 4959.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product14/1.png",
+            "thumbs": [
+                "img/products/product14/1.png",
+                "img/products/product14/2.png",
+                "img/products/product14/3.png"
+            ]
+        }
+    },
+    {
+        "id": 15,
+        "name": "NikeCourt Vapor 11 HC Premium",
+        "price": {
+            "oldPrice": 8519.00,
+            "newPrice": 7519.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product15/1.png",
+            "thumbs": [
+                "img/products/product15/1.png",
+                "img/products/product15/2.png",
+                "img/products/product15/3.png"
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "name": "Nike SB Janoski+ Slip",
+        "price": {
+            "oldPrice": 4759.00,
+            "newPrice": 3759.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product16/1.png",
+            "thumbs": [
+                "img/products/product16/1.png",
+                "img/products/product16/2.png",
+                "img/products/product16/3.png"
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "name": "Nike Juniper Trail 3",
+        "price": {
+            "oldPrice": 4695.00,
+            "newPrice": 4695.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product17/1.png",
+            "thumbs": [
+                "img/products/product17/1.png",
+                "img/products/product17/2.png",
+                "img/products/product17/3.png"
+            ]
+        }
+    },
+    {
+        "id": 18,
+        "name": "Nike Superfly 9 Elite Mercurial Dream Speed",
+        "price": {
+            "oldPrice": 13159.00,
+            "newPrice": 12159.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product18/1.png",
+            "thumbs": [
+                "img/products/product18/1.png",
+                "img/products/product18/2.png",
+                "img/products/product18/3.png"
+            ]
+        }
+    },
+    {
+        "id": 19,
+        "name": "Ja 2 'Nightmare' EP",
+        "price": {
+            "oldPrice": 8395.00,
+            "newPrice": 7395.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product19/1.png",
+            "thumbs": [
+                "img/products/product19/1.png",
+                "img/products/product19/2.png",
+                "img/products/product19/3.png"
+            ]
+        }
+    },
+    {
+        "id": 20,
+        "name": "Nike GP Challenge 1 Premium",
+        "price": {
+            "oldPrice": 7229.00,
+            "newPrice": 6229.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product20/1.png",
+            "thumbs": [
+                "img/products/product20/1.png",
+                "img/products/product20/2.png",
+                "img/products/product20/3.png"
+            ]
+        }
+    }
+]

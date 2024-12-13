@@ -1,0 +1,70 @@
+[
+ {
+        "id": 6,
+        "name": "Nike Alphafly 3 Premium",
+        "price": {
+            "oldPrice": 16095.00,
+            "newPrice": 15095.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product6/1.png",
+            "thumbs": [
+                "img/products/product6/1.png",
+                "img/products/product6/2.png",
+                "img/products/product6/3.png"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "name": "Nike Pegasus 41 'Eliud Kipchoge'",
+        "price": {
+            "oldPrice": 8895.00,
+            "newPrice": 7895.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product4/1.png",
+            "thumbs": [
+                "img/products/product4/1.png",
+                "img/products/product4/2.png",
+                "img/products/product4/3.png"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "name": "Nike Zoom Fly 6 Premium",
+        "price": {
+            "oldPrice": 10895.00,
+            "newPrice": 9895.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product5/1.png",
+            "thumbs": [
+                "img/products/product5/1.png",
+                "img/products/product5/2.png",
+                "img/products/product5/3.png"
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "name": "Nike Juniper Trail 3",
+        "price": {
+            "oldPrice": 4695.00,
+            "newPrice": 4695.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product17/1.png",
+            "thumbs": [
+                "img/products/product17/1.png",
+                "img/products/product17/2.png",
+                "img/products/product17/3.png"
+            ]
+        }
+    }
+]

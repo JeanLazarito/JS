@@ -1,0 +1,70 @@
+[
+    {
+        "id": 13,
+        "name": "NikeCourt Vapor Lite 2",
+        "price": {
+            "oldPrice": 5295.00,
+            "newPrice": 4295.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product13/1.png",
+            "thumbs": [
+                "img/products/product13/1.png",
+                "img/products/product13/2.png",
+                "img/products/product13/3.png"
+            ]
+        }
+    },
+    {
+        "id": 14,
+        "name": "Nike GP Challenge Pro",
+        "price": {
+            "oldPrice": 5959.00,
+            "newPrice": 4959.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product14/1.png",
+            "thumbs": [
+                "img/products/product14/1.png",
+                "img/products/product14/2.png",
+                "img/products/product14/3.png"
+            ]
+        }
+    },
+    {
+        "id": 15,
+        "name": "NikeCourt Vapor 11 HC Premium",
+        "price": {
+            "oldPrice": 8519.00,
+            "newPrice": 7519.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product15/1.png",
+            "thumbs": [
+                "img/products/product15/1.png",
+                "img/products/product15/2.png",
+                "img/products/product15/3.png"
+            ]
+        }
+    },
+    {
+        "id": 20,
+        "name": "Nike GP Challenge 1 Premium",
+        "price": {
+            "oldPrice": 7229.00,
+            "newPrice": 6229.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product20/1.png",
+            "thumbs": [
+                "img/products/product20/1.png",
+                "img/products/product20/2.png",
+                "img/products/product20/3.png"
+            ]
+        }
+    }
+]

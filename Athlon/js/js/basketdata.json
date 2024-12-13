@@ -1,0 +1,70 @@
+[
+    {
+        "id": 10,
+        "name": "LeBron XXII 'Crown Jewel' EP",
+        "price": {
+            "oldPrice": 10895.00,
+            "newPrice": 9895.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product10/1.png",
+            "thumbs": [
+                "img/products/product10/1.png",
+                "img/products/product10/2.png",
+                "img/products/product10/3.png"
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "name": "LeBron XXII 'Currency' EP",
+        "price": {
+            "oldPrice": 11895.00,
+            "newPrice": 10895.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product11/1.png",
+            "thumbs": [
+                "img/products/product11/1.png",
+                "img/products/product11/2.png",
+                "img/products/product11/3.png"
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "name": "Ja 2 'Nightmare' EP",
+        "price": {
+            "oldPrice": 8395.00,
+            "newPrice": 7395.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product12/1.png",
+            "thumbs": [
+                "img/products/product12/1.png",
+                "img/products/product12/2.png",
+                "img/products/product12/3.png"
+            ]
+        }
+    },
+    {
+        "id": 19,
+        "name": "Ja 2 'Nightmare' EP",
+        "price": {
+            "oldPrice": 8395.00,
+            "newPrice": 7395.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product19/1.png",
+            "thumbs": [
+                "img/products/product19/1.png",
+                "img/products/product19/2.png",
+                "img/products/product19/3.png"
+            ]
+        }
+    }
+]

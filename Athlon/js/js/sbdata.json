@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "name": "Nike Air Force 1 '07",
+        "price": {
+            "oldPrice": 7195.00,
+            "newPrice": 6195.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product1/1.png",
+            "thumbs": [
+                "img/products/product1/1.png",
+                "img/products/product1/2.png",
+                "img/products/product1/3.png"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "name": "Nike SB Dunk Low",
+        "price": {
+            "oldPrice": 7895.00,
+            "newPrice": 6895.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product2/1.png",
+            "thumbs": [
+                "img/products/product2/1.png",
+                "img/products/product2/2.png",
+                "img/products/product2/3.png"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "name": "Nike Cortez Leather",
+        "price": {
+            "oldPrice": 7195.00,
+            "newPrice": 6195.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product3/1.png",
+            "thumbs": [
+                "img/products/product3/1.png",
+                "img/products/product3/2.png",
+                "img/products/product3/3.png"
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "name": "Nike SB Janoski+ Slip",
+        "price": {
+            "oldPrice": 4759.00,
+            "newPrice": 3759.00
+        },
+        "discount": 10,
+        "img": {
+            "singleImage": "img/products/product16/1.png",
+            "thumbs": [
+                "img/products/product16/1.png",
+                "img/products/product16/2.png",
+                "img/products/product16/3.png"
+            ]
+        }
+    }
+]
